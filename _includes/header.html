@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="page-shell site-header__inner">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Bhavya Berlia home">
+      <span class="wordmark__name">Bhavya<br />Berlia</span>
+      <span class="wordmark__descriptor">Strategy · operations · product</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="{% if page.url == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+      <a class="{% if page.url == '/about/' %}is-active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="{% if page.url == '/experience/' %}is-active{% endif %}" href="{{ '/experience/' | relative_url }}">Experience</a>
+      <a class="{% if page.url == '/contact/' %}is-active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">
+      <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+      <span data-theme-label>Dark mode</span>
+    </button>
+  </div>
+</header>

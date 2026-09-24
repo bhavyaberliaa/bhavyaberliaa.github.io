@@ -1,0 +1,17 @@
+title: "Bhavya Berlia — Strategy, operations & product"
+description: "Bhavya Berlia works at the intersection of strategy, operations, and product, building what comes next in ambiguous environments."
+url: "https://bhavyaberliaa.github.io"
+baseurl: ""
+lang: "en-US"
+timezone: "America/Los_Angeles"
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/favicon.svg
