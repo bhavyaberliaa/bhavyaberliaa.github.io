@@ -9,9 +9,24 @@ permalink: pretty
 highlighter: rouge
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+whitelist:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - PLAN.md
+  - Gemfile
+  - Gemfile.lock
+  - replit.md
+  - .agents
+  - .local
+  - .cache
+  - .conversation
+  - .replit
+  - vendor
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-      image: /assets/favicon.svg

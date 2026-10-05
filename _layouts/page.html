@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<section class="page-shell page-intro">
+  <p class="eyebrow">{{ page.eyebrow | default: page.title | escape }}</p>
+  <h1>{{ page.heading | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+  {% if page.lede %}<p class="intro__lead">{{ page.lede | escape }}</p>{% endif %}
+  <div class="page-content prose">
+    {{ content }}
+  </div>
+</section>

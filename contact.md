@@ -1,32 +1,31 @@
 ---
+layout: page
 title: "Contact"
-description: "Get in touch with Bhavya Berlia about ambitious strategy, operations, and product work."
+heading: "Scrappy and ambitious? *Let's connect.*"
+description: "Get in touch with Bhavya Berlia about strategy, operations, and product work."
 permalink: /contact/
+lede: "I'm also building a voice AI app on the side. If you're working on something scrappy and ambitious, I'd love to connect."
 ---
 
-<main id="main-content">
-  <section class="page-shell contact-hero" aria-labelledby="contact-title">
-    <p class="eyebrow"><span class="eyebrow__line" aria-hidden="true"></span> Contact</p>
-    <h1 id="contact-title">Have a hard problem?<br /><em>Let's talk it through.</em></h1>
-    <p class="contact-hero__lead">If you're building something scrappy and ambitious — or hiring for a team that needs someone to find the path and move — I'd love to connect.</p>
-  </section>
+## Email
 
-  <section class="page-shell contact-grid" aria-label="Contact options">
-    <div class="contact-card contact-card--primary">
-      <p class="eyebrow">Email</p>
-      <h2><a href="mailto:your.email@example.com?subject=Hello%20Bhavya">your.email@example.com <span aria-hidden="true">↗</span></a></h2>
-      <p class="placeholder-note">Replace this placeholder with your public email address.</p>
-      <p class="contact-card__fine-print">This address will be public. A mailto link works best for visitors who have an email app configured.</p>
-    </div>
-    <div class="contact-card">
-      <p class="eyebrow">Elsewhere</p>
-      <a class="contact-link" href="https://github.com/bhavyaberliaa" rel="me">GitHub <span aria-hidden="true">↗</span></a>
-      <p class="contact-card__support">Projects, experiments, and the occasional scrappy build.</p>
-    </div>
-  </section>
+{% if site.email and site.email != "" %}
+[Email Bhavya ↗](mailto:{{ site.email | escape }}?subject=Hello%20Bhavya){: .button .button--solid}
+{% else %}
+Placeholder: a public email address has not been supplied.
+{: .placeholder-note}
 
-  <section class="page-shell contact-footer-note">
-    <p class="eyebrow">Currently looking for</p>
-    <p>Summer 2026 internships where I can hit the ground running, bring immediate value, and work on problems that actually matter.</p>
-  </section>
-</main>
+Once the address is added to the site settings, a working email link will appear here.
+{% endif %}
+
+The address will be public, and visitors need an email app configured to use the
+mailto link.
+
+## Elsewhere
+
+[GitHub — bhavyaberliaa ↗](https://github.com/bhavyaberliaa){: .text-link}
+
+## Currently looking for
+
+Summer 2026 internships where I can hit the ground running, bring immediate
+value, and work on problems that actually matter.

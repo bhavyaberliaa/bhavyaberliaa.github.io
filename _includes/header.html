@@ -1,16 +1,16 @@
 <header class="site-header">
   <div class="page-shell site-header__inner">
-    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Bhavya Berlia home">
+    <a class="wordmark" href="{{ '/' | relative_url }}">
       <span class="wordmark__name">Bhavya<br />Berlia</span>
       <span class="wordmark__descriptor">Strategy · operations · product</span>
     </a>
     <nav class="site-nav" aria-label="Primary navigation">
-      <a class="{% if page.url == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
-      <a class="{% if page.url == '/about/' %}is-active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
-      <a class="{% if page.url == '/experience/' %}is-active{% endif %}" href="{{ '/experience/' | relative_url }}">Experience</a>
-      <a class="{% if page.url == '/contact/' %}is-active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a {% if page.url == '/' %}class="is-active" aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Home</a>
+      <a {% if page.url == '/about/' %}class="is-active" aria-current="page"{% endif %} href="{{ '/about/' | relative_url }}">About</a>
+      <a {% if page.url == '/experience/' %}class="is-active" aria-current="page"{% endif %} href="{{ '/experience/' | relative_url }}">Experience</a>
+      <a {% if page.url == '/contact/' %}class="is-active" aria-current="page"{% endif %} href="{{ '/contact/' | relative_url }}">Contact</a>
     </nav>
-    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Dark mode: switch theme" aria-pressed="false" hidden>
       <span class="theme-toggle__icon" aria-hidden="true">◐</span>
       <span data-theme-label>Dark mode</span>
     </button>

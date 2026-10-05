@@ -3,10 +3,12 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
+  <body id="top">
     <a class="skip-link" href="#main-content">Skip to content</a>
     {% include header.html %}
-    {{ content }}
+    <main id="main-content">
+      {{ content }}
+    </main>
     {% include footer.html %}
     <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
   </body>

@@ -1,0 +1,29 @@
+modules = ["ruby-3.2", "python-base-3.13", "nodejs-24"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Jekyll portfolio"
+
+[[workflows.workflow]]
+name = "Jekyll portfolio"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "RUBYOPT=-W0 JEKYLL_ENV=production bundle exec jekyll serve --host 0.0.0.0 --port ${PORT:-5000} --destination /tmp/bhavya-preview"
+waitForPort = 5000
+
+[[ports]]
+localPort = 5000
+externalPort = 80
