@@ -8,36 +8,48 @@ permalink: /experience/
 lede: "I've worked on large-scale public systems problems and built AI products — finding the problem, building the team, and shipping the product."
 ---
 
-## 01 — Rocket Learning
+## 01 — Coval
+
+**Agent Deployment Strategist**
+
+San Francisco | May 2026 to Present
+
+- Second deployment hire at a YC-backed Series A startup building evaluation infrastructure for voice agents.
+- Lead voice agent deployments for enterprise customers: define use cases, redesign conversation flows, and build pre-launch quality tests.
+- Built a customer health dashboard across 20+ enterprise accounts to spot churn risk early.
+
+---
+
+## 02 — Rocket Learning
 
 **Chief of Staff**
 
-An ed-tech startup backed by ex-McKinsey and HBS founders.
+Delhi, India | Apr 2024 to Jun 2025
 
-- Led AI transformation strategy.
-- Built partnerships with Google and OpenAI.
-- Took a product from 0 to 1 that reached **15M+ learners**.
-
-Placeholder: employment dates and additional role details have not been supplied.
-{: .placeholder-note}
+- Led a 15-member team to launch India's first cognitive development app from 0 to 1, reaching 2M users.
+- Used data from 500K+ sessions and 10+ A/B tests to redesign onboarding, boosting retention by 20%.
+- Secured $2M from OpenAI and Google to co-develop AI solutions.
 
 ---
 
-## 02 — Samagra
+## 03 — Samagra Governance
 
-India's leading governance consulting firm.
+**Senior Associate**
 
-- Spent **2.5 years** solving large-scale public systems problems using data.
+Delhi, India | Oct 2021 to Mar 2024
 
-Placeholder: exact job title, employment dates, and project details have not
-been supplied.
-{: .placeholder-note}
+- Owned product development for a gamified reading app with Google for Education, delivering 25% learning gains for 15M+ students.
+- Analyzed 5M+ loan records with SQL to find 15 regulatory barriers, unlocking $4B/year in credit for small businesses.
+- Led a diagnostic for India's largest state (10M students); the 5-year roadmap was adopted by state leadership.
 
 ---
 
-## What comes next
+## 04 — Leo Burnett
 
-At Haas, I'm recruiting for summer 2026 internships where I can hit the ground
-running, bring immediate value, and work on problems that actually matter.
+**Brand Strategist**
+
+Mumbai, India | Jul 2020 to Sep 2021
+
+- Defined the repositioning strategy for a $15B investment firm, driving 20% sales growth across 3 products.
 
 [Let's talk ↗]({{ '/contact/' | relative_url }}){: .button .button--solid}
